@@ -8,7 +8,7 @@ github登录帐号：iOS_swift@qq.com
 
 github登录密码：你懂的
 
-github地址：https://github.com/swift8
+github地址：https://github.com/swift8/anim-app
 
 
 ##求好看的动漫？
@@ -36,7 +36,7 @@ github地址：https://github.com/swift8
 * [XXX](http://XXX.org/)
 * [jquery](http://jquery.com)
 
-##关于作者
+##这里面还可以贴代码
 
 ```javascript
   var ihubo = {
