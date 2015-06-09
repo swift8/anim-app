@@ -12,6 +12,7 @@ github地址：https://github.com/swift8/anim-app
 
 github入门：https://guides.github.com/activities/hello-world/
 
+markDown语法：http://mahua.jser.me/  https://www.zybuluo.com/mdeditor
 
 ##求好看的动漫？
 
@@ -46,10 +47,10 @@ github入门：https://guides.github.com/activities/hello-world/
     site : "http://XXX.com"
   }
 ```
-##图片-一公升的眼泪
+##添加图片代码演示《一公升的眼泪》
 ![一公升的眼泪](http://ww4.sinaimg.cn/large/ce98cd4cgw1esxvn1b1gfj20g40c3wfd.jpg)
 
-##图片-我们仍未知道那天所看见的花的名字
+##添加图片代码演示《我们仍未知道那天所看见的花的名字》
 ![未闻花名](http://ww4.sinaimg.cn/large/ce98cd4cgw1esjz7f6ljdj20zk14vqv6.jpg)
 
 
