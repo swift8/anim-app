@@ -9,6 +9,7 @@ github登录帐号：iOS_swift@qq.com
 github登录密码：你懂的
 
 github地址：https://github.com/swift8/anim-app
+github入门：https://guides.github.com/activities/hello-world/
 
 
 ##求好看的动漫？
