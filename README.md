@@ -4,7 +4,7 @@ QQ邮箱帐号：iOS_swift@qq.com      (对应QQ号码：1625465730)
 密码：你懂的
 
 ##github登录信息
-github登录帐号：iOS_swift@qq.com
+github登录帐号(用户名)：swift8   (或者使用email：iOS_swift@qq.com)
 
 github登录密码：你懂的
 
