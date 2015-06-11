@@ -7,11 +7,21 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
+
+
 
 class HomeViewController: UIViewController {
 
+    var request: Alamofire.Request = Alamofire.request(.GET, "http://www.baidu.com/")
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.request.responseString { (request, response, body, error) in
+            println("request ==== \(request),response ==== \(response), body=== \(body),  error === \(error)")
+        }
 
     }
 
