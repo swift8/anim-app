@@ -14,6 +14,8 @@
 		785897491B2924FA00F62D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785897411B2924FA00F62D0B /* Main.storyboard */; };
 		7858974A1B2924FA00F62D0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785897431B2924FA00F62D0B /* Images.xcassets */; };
 		7858974B1B2924FA00F62D0B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 785897441B2924FA00F62D0B /* Info.plist */; };
+		78722BB31B382C810024C3F4 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78722BB01B382C810024C3F4 /* StringExtension.swift */; };
+		78722BB41B382C810024C3F4 /* NetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78722BB21B382C810024C3F4 /* NetTest.swift */; };
 		B454E94E03FD980CC2662C0F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D33580B2FCD97F53B41779C /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		785897421B2924FA00F62D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		785897431B2924FA00F62D0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		785897441B2924FA00F62D0B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78722BB01B382C810024C3F4 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		78722BB21B382C810024C3F4 /* NetTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetTest.swift; sourceTree = "<group>"; };
 		7D33580B2FCD97F53B41779C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,12 +105,12 @@
 		7858972E1B2924FA00F62D0B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				78722BAF1B382C810024C3F4 /* Extension */,
+				78722BB11B382C810024C3F4 /* Network */,
 				7858972F1B2924FA00F62D0B /* Business */,
 				785897361B2924FA00F62D0B /* Common */,
 				7858973A1B2924FA00F62D0B /* Database */,
-				7858973B1B2924FA00F62D0B /* Network */,
 				7858973C1B2924FA00F62D0B /* Thress */,
-				7858973D1B2924FA00F62D0B /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -183,25 +187,11 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
-		7858973B1B2924FA00F62D0B /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
 		7858973C1B2924FA00F62D0B /* Thress */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Thress;
-			sourceTree = "<group>";
-		};
-		7858973D1B2924FA00F62D0B /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 		7858973E1B2924FA00F62D0B /* Resources */ = {
@@ -213,6 +203,22 @@
 				785897441B2924FA00F62D0B /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		78722BAF1B382C810024C3F4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				78722BB01B382C810024C3F4 /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		78722BB11B382C810024C3F4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				78722BB21B382C810024C3F4 /* NetTest.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		FD467393090C5CD107557422 /* Frameworks */ = {
@@ -376,8 +382,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				785897471B2924FA00F62D0B /* AppDelegate.swift in Sources */,
+				78722BB31B382C810024C3F4 /* StringExtension.swift in Sources */,
 				785897461B2924FA00F62D0B /* MineViewController.swift in Sources */,
 				785897451B2924FA00F62D0B /* HomeViewController.swift in Sources */,
+				78722BB41B382C810024C3F4 /* NetTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
